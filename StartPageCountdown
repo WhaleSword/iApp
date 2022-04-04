@@ -1,0 +1,77 @@
+sran(3,8,ss.id)
+
+ss("("+ss.id+")/s",name)
+
+//设置广告停顿秒数
+
+us(32,"text",ss.id)
+
+ss sid="true"
+
+//倒计时开始
+
+ss uid="true"
+
+//允许跳转页面
+
+t(){
+
+  w(ss.sid=="true"){
+
+    stop(1000)
+
+    s(ss.id-1,ss.id)
+
+    ss("("+ss.id+")/s",start)
+
+    ufnsui(){
+
+      us(31,"text",start)
+
+      f(ss.Skip=="true"){
+
+        f(ss.uid=="true"){
+
+          ss uid="false"
+
+          ss Skip="false"
+
+          uigo("Account_login.iyu")
+
+          lan(11)
+
+          end()
+
+        }else{
+
+        }
+
+      }else f(ss.id<="0"){
+
+        f(ss.uid=="true"){
+
+          ss uid="false"
+
+          ss Skip="false"
+
+          uigo("Account_login.iyu")
+
+          lan(11)
+
+          end()
+
+        }else{
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+//支持项目跳过
+.ss Skip="true"
